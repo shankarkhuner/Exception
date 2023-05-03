@@ -1,0 +1,22 @@
+
+
+
+//The JVM is not perticular
+
+class Excp3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		try
+		{
+			System.out.println("Inside try");
+			System.out.println(20/2);
+		}
+		catch (NullPointerException np)//ArithmeticException
+		{
+			System.out.println("Inside Catch");
+		}
+		System.out.println("Stop");
+}
+}
