@@ -1,0 +1,30 @@
+class Excp9 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		int[] a = new int[3];
+		try
+		{
+			
+			System.out.println(10/2);//ArithmeticException
+			System.out.println(a[10]);
+
+		}
+		catch (Exception e) // ArithmeticException are already found hear so there for it`s showing Exception--->
+		{                   //
+			System.out.println("Inside Catch block - ArithmeticException");
+		}
+		catch (ArithmeticException ae1)
+		{
+			System.out.println("Inside Catch block - Exception");
+		}
+		System.out.println("Stop");
+	}
+}
+ //   o/p:-
+//    java:18: error: exception ArithmeticException has already been caught
+        
+//   There for (Exception e) always in last catch block.
+
+//   We create multiple catch block the order of catch block is always from chold to Parent.
