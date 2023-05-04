@@ -19,5 +19,6 @@ class Excp4
 			System.out.println("Inside catch block");
 			System.out.println(10/0);
 		}
+		System.out.println("Stop");
 	}
 }
