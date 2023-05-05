@@ -1,0 +1,34 @@
+
+
+/*
+	1) The exit method termenate the current running java vartual machine.
+	2) With the help of exit() method we are telling to JVM Explicitlly shutdown hence finally block will never get Excecuted.
+*/
+
+
+
+
+/*
+	We can use exit() method to shutdown or termenate the finally block.
+*/
+
+
+
+class Finally5 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		try
+		{
+			System.out.println("Inside try Block");
+			System.exit(0);  // VM shutdown
+		}
+		finally
+		{
+			System.out.println("Inside finally Block");
+		}
+		System.out.println("Stop");
+	
+	}
+}

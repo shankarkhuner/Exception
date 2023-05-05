@@ -1,0 +1,44 @@
+
+/* try
+   {
+		Connect to DataBase
+		Fatch the Data
+   }
+   catch ()
+   {
+	   Alternative code
+	   Fatch the Data
+   }
+   Fially
+   {
+	   Disconnect to Database
+   }
+*/
+class Finally 
+{
+	public static void main(String[] args)  
+	{
+		System.out.println("Start");
+		try
+		{
+			System.out.println(10/0);
+			System.out.println("Inside try Block");
+			
+		}
+		catch (ArithmeticException ae)
+		{
+			System.out.println("Inside catch Block");
+		}
+		finally
+			{
+				System.out.println("Inside finally Block");
+			}
+			System.out.println("Stop");
+
+
+	}
+}
+/*
+	If an Exception is raise or not raise, Handle or
+	not Handle the finall Block is always get executed 
+*/

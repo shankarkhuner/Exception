@@ -12,7 +12,12 @@ class  Exep1
 			System.out.println(400/10);
 		}
 		System.out.println("Stop");
-		
+														
+														/*When ever an Exception is raise internally it create an 
+														object of the pertecular Exception and the access the objct 
+														we need use a referance and that referance are declear as a 
+														part if the catch block.
+														*/
 	}
 }
 

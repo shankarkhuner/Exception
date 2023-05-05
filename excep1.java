@@ -1,3 +1,10 @@
+
+/* Defenation of try&catch:-
+ If an error occurs, we can use try...catch to catch the error and execute some code to handle it:
+	
+*/
+
+
 class  Exep1
 {
 	public static void main(String[] args) 
