@@ -1,0 +1,17 @@
+
+package com.Capgemini.hiring;
+
+
+import biz.cybersuccess.training.CyberSuccessSkills;
+
+
+class CapgeminiRecruitment extends CyberSuccessSkills 
+{
+	public static void main(String[] args) 
+	{
+		CapgeminiRecruitment cs = new CapgeminiRecruitment();
+		cs.JavaDev();
+		cs.SoftwearTesting();
+		cs.PythonDev();
+	}
+}

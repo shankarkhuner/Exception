@@ -1,0 +1,14 @@
+class Demo
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		Integer i1 = new Integer(100);
+		System.out.println(i1);
+		System.out.println(i1.toString());
+		int i2 = i1.intValue();
+		System.out.println(i2);
+
+
+	}
+}

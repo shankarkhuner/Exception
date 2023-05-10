@@ -1,0 +1,16 @@
+
+package biz.cybersuccess.development.java;
+
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+class Sample1
+{
+}
+class Sample2
+{
+}
