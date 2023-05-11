@@ -1,0 +1,17 @@
+class  Boxing // AutoBoxing
+{
+	public static void main(String[] args) 
+	{
+		Integer i1 = 100;
+		System.out.println(i1);
+		System.out.println(i1.toString());
+
+
+
+		//Un-Boxing
+		
+		Integer obj = new Integer(500);
+		System.out.println(obj);
+		
+	}
+}
