@@ -24,6 +24,6 @@ class Demo
 	public static void main(String[] args) 
 	{
 		System.out.println("Hello World!");
-		new Outer.new Inner.m1(80,80.54f);
+		new Outer().new Inner().m1(80,80.54f);
 	}
 }
