@@ -1,5 +1,4 @@
 
-
 class Outer
 {
 	private int a = 100;
@@ -15,15 +14,15 @@ class Outer
 			System.out.println(a+b);
 			System.out.println(x+y);
 			System.out.println(p+q);
-				
 			}
 	}
 }
 class Demo 
 {
 	public static void main(String[] args) 
-	{
-		System.out.println("Hello World!");
+		{
+		System.out.println("Start");
 		new Outer().new Inner().m1(80,80.54f);
-	}
+		System.out.println("Stop");
+		}
 }

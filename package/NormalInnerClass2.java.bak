@@ -25,5 +25,7 @@ class NormalInnerClass
 		System.out.println("Start");
 		Outer t1 = new Outer();
 		t1.m1();
+		Outer.Inner s1 = t1.new Inner();
+		s1.m2();
 	}
 }

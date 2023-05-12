@@ -11,7 +11,7 @@ class Outer
 	{
 		float b = 20.5f;
 		void m2() // Bank Locker concept if customer is ded then the Bank has athoretie to open the locker 
-					// There for we able access the ---> a <--in Inner class Method m2()
+					// There for we able access the ---> a <--into Inner class Method m2()
 			{
 				System.out.println("Inside m2 Method");
 				System.out.println(a+b);
