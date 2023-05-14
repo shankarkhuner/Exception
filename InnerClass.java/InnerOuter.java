@@ -1,0 +1,33 @@
+
+class Outer 
+{
+	private int a = 100;
+	private float b = 200.20f;
+
+
+	class Inner
+	{
+		float a = 300.5f;
+		int b = 400;
+
+		void m1(int a,float b)
+			{
+				System.out.println("Inside m1 method");
+				System.out.println(a+b);
+				System.out.println(this.a+this.b);
+				System.out.println(Outer.this.a+Outer.this.b);
+
+
+			}
+	}
+}
+
+class Demo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Start");
+		new Outer().new Inner().m1(50,500.5f);
+		System.out.println("Stop");
+	}
+}
