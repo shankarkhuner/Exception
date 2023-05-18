@@ -1,0 +1,28 @@
+
+//Anonumous Classes :-The Main Resone of this class is to reduce the code length
+
+class A
+{
+	void show()
+		{
+			System.out.println("in method shows----A");
+		}
+}
+class B extends A
+{
+	void show()
+		{
+			System.out.println("in method shows---B");
+		}
+}
+
+
+
+class Demo
+{
+	public static void main(String[] args) 
+	{
+		A obj = new B();
+		obj.show();
+	}
+}

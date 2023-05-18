@@ -1,0 +1,28 @@
+
+class Outer
+{
+	int a = 10;
+	static float b = 20.5f;
+
+	static class Inner
+	{
+		static void m1()
+			{
+			Outer o = new Outer();
+			System.out.println(o.a+b);
+				
+			}
+	}
+
+
+}
+
+
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Outer.Inner.m1();
+	}
+}
