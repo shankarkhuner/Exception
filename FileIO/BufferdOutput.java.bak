@@ -18,7 +18,8 @@ class BufferInputeOutputStream
 		int info;
 		while((info=bis.read())!=-1);
 		{
-			System.out.println(info);
+			System.out.println(" "+(char)info);
+			bos.write(info);
 		}
 		fis.close();
 		bis.close();
