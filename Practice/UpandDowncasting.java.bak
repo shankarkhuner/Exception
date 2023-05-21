@@ -1,0 +1,33 @@
+
+class GranParent
+{
+	int a = 100;
+}
+class Parent
+{
+	int b = 50;
+}
+class Child extends Parent
+{
+	float c = 200.254f;
+}
+
+class Downcasting 
+{
+	public static void main(String[] args) 
+	{
+		Parent p = new Child();
+		System.out.println(p.b);
+
+		GranParent q = new Child();
+		System.out.println(q.a);
+
+		Child c = new Child();
+		System.out.println(c.a);
+		System.out.println(c.b);
+		System.out.println(c.c);
+
+
+
+	}
+}
