@@ -1,0 +1,12 @@
+
+
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		int[] a  = new int[3];
+		for(int aa:a){
+			System.out.println(aa);
+		}
+	}
+}
